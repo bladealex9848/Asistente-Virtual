@@ -1,4 +1,4 @@
-![Logo del Asistente Virtual](https://ruta-a-tu-logo.png)
+![Logo del Asistente Virtual](https://github.com/bladealex9848/Asistente-Virtual/blob/main/logo.jpg)
 
 # Asistente Virtual: Tu compañero digital multiexperto
 
