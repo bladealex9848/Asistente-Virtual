@@ -49,22 +49,20 @@ client = openai
 st.title("Bienvenido a tu Asistente Virtual 🤖")
 
 st.markdown("""
-<div style="background-color: #f0f2f6; padding: 20px; border-radius: 10px;">
-    <h3 style="color: #1f77b4;">¡Hola! Soy tu Asistente Virtual</h3>
-    <p>Tu compañero digital multiexperto, siempre listo para ayudarte en español con respuestas precisas, claras y personalizadas en cualquier tema o tarea.</p>
-    
-    <h4 style="color: #2ca02c;">¿En qué puedo ayudarte hoy? 🤔</h4>
-    <ul>
-        <li>Responder a tus preguntas sobre una amplia variedad de temas.</li>
-        <li>Asistirte en tareas como análisis, cálculos o planificación.</li>
-        <li>Proporcionar explicaciones detalladas y ejemplos prácticos.</li>
-        <li>Ofrecer sugerencias y soluciones creativas a tus problemas.</li>
-        <li>Y mucho más...</li>
-    </ul>
-    
-    <p><strong>No dudes en preguntarme sobre cualquier tema. ¡Estoy aquí para ayudarte en español!</strong></p>
-</div>
-""", unsafe_allow_html=True)
+### 🤖 ¡Hola! Soy tu Asistente Virtual
+
+Tu compañero digital multiexperto, siempre listo para ayudarte en español con respuestas precisas, claras y personalizadas en cualquier tema o tarea.
+
+#### ¿En qué puedo ayudarte hoy? 🤔
+
+- Responder a tus preguntas sobre una amplia variedad de temas.
+- Asistirte en tareas como análisis, cálculos o planificación.
+- Proporcionar explicaciones detalladas y ejemplos prácticos.
+- Ofrecer sugerencias y soluciones creativas a tus problemas.
+- Y mucho más...
+
+**No dudes en preguntarme sobre cualquier tema. ¡Estoy aquí para ayudarte en español!**
+""")
 
 # Inicialización de variables de estado de sesión
 st.session_state.start_chat = True
